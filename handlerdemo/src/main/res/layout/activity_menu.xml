@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:background="@drawable/byebye"
+    tools:context=".MenuActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#13E91E63"
+        android:text="Handler消息传递" />
+
+    <Button
+        android:background="#13E91E63"
+        android:layout_marginTop="20dp"
+        android:id="@+id/QQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QQ登录界面" />
+    <Button
+        android:background="#13E91E63"
+        android:layout_marginTop="20dp"
+        android:id="@+id/filesave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文件存储" />
+    <Button
+        android:background="#13E91E63"
+        android:layout_marginTop="20dp"
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出应用" />
+</LinearLayout>

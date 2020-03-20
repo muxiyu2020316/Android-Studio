@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstAPPracation</string>
+    <string name="ui">UI菜单</string>
+    <string name="listview">ListView</string>
+    <string name="listviewimage">ListViewImage</string>
+    <string name="backpack">backpack</string>
+</resources>

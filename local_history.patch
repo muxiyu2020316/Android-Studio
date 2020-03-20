@@ -1,0 +1,129 @@
+Index: handlerdemo/src/main/res/layout/activity_menu.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- handlerdemo/src/main/res/layout/activity_menu.xml	(date 1584152225552)
++++ handlerdemo/src/main/res/layout/activity_menu.xml	(date 1584152225552)
+@@ -5,28 +5,32 @@
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+-    android:background="@drawable/moodflower"
++    android:background="@drawable/company"
+     tools:context=".MenuActivity">
+ 
+     <Button
++        android:background="#FFFFFF"
+         android:id="@+id/button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Handler消息传递" />
+ 
+     <Button
++        android:background="#FFFFFF"
+         android:layout_marginTop="20dp"
+         android:id="@+id/QQ"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="QQ登录界面" />
+     <Button
++        android:background="#FFFFFF"
+         android:layout_marginTop="20dp"
+         android:id="@+id/filesave"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="文件存储" />
+     <Button
++        android:background="#FFFFFF"
+         android:layout_marginTop="20dp"
+         android:id="@+id/back"
+         android:layout_width="match_parent"
+Index: handlerdemo/src/main/res/layout/activity_save.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- handlerdemo/src/main/res/layout/activity_save.xml	(date 1584152225532)
++++ handlerdemo/src/main/res/layout/activity_save.xml	(date 1584152225532)
+@@ -1,9 +1,45 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
++<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
++    android:orientation="vertical"
++    android:background="@drawable/byebye"
+     tools:context=".SaveFileActivity">
+ 
+-</androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
++    <Button
++        android:id="@+id/write"
++        android:layout_width="wrap_content"
++        android:layout_height="wrap_content"
++        android:text="写入文件"
++        tools:layout_editor_absoluteX="1dp"
++        tools:layout_editor_absoluteY="4dp" />
++
++    <EditText
++        android:id="@+id/textwrite"
++        android:layout_width="match_parent"
++        android:layout_height="77dp"
++        android:lines="3"
++        android:hint="要写入的文件" />
++
++    <Button
++        android:id="@+id/read"
++        android:layout_width="99dp"
++        android:layout_height="wrap_content"
++        android:text="读取文件" />
++
++    <EditText
++        android:id="@+id/textread"
++        android:layout_width="match_parent"
++        android:layout_height="77dp"
++        android:lines="3"
++        android:hint="要读取的文件" />
++
++    <ImageButton
++        android:id="@+id/imageButton"
++        android:layout_width="107dp"
++        android:layout_height="wrap_content"
++        app:srcCompat="@drawable/restart" />
++
++</LinearLayout>
+\ No newline at end of file
+Index: handlerdemo/src/main/res/layout/activity_login.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- handlerdemo/src/main/res/layout/activity_login.xml	(date 1584152225522)
++++ handlerdemo/src/main/res/layout/activity_login.xml	(date 1584152225522)
+@@ -9,7 +9,7 @@
+     tools:context=".qqLoginActivity">
+     <LinearLayout
+         android:layout_width="match_parent"
+-        android:layout_height="wrap_content">
++        android:layout_height="120dp">
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+Index: handlerdemo/src/main/java/com/example/handlerdemo/MenuActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- handlerdemo/src/main/java/com/example/handlerdemo/MenuActivity.java	(date 1584152225152)
++++ handlerdemo/src/main/java/com/example/handlerdemo/MenuActivity.java	(date 1584152225152)
+Index: handlerdemo/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- handlerdemo/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar	(date 1584152293402)
++++ handlerdemo/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar	(date 1584152293402)
+@@ -1,0 +0,0 @@

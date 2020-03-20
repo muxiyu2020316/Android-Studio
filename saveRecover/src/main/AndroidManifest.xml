@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.saverecover">
+    <!--    在SDCard中创建与删除文件权限-->
+    <uses-permission android:name="android:permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="WrongManifestParent" />
+    <!--    往SDCard写入数据权限-->
+    <uses-permission android:name="android:permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="WrongManifestParent" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/souhumovie"
+        android:label="Handler"
+        android:roundIcon="@drawable/qq"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".QQLoginActivity"></activity>
+        <activity android:name=".FileActivity" />
+        <activity android:name=".MenuActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HandlerActivity">
+        </activity>
+
+    </application>
+
+</manifest>

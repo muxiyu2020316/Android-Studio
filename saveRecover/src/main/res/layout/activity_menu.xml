@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/byebye"
+    tools:context=".MenuActivity">
+<Button
+    android:id="@+id/handler"
+    android:layout_width="match_parent"
+    android:text="Handler消息传递"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:text="文件存储"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:text="QQ登录"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

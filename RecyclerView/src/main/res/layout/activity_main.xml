@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baiduyun"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="#00ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请给小宝宝购买装备吧"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+          android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#00ffff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="生命力"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="0"
+           android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#00ffff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+           android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#00ffff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="攻击力"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent" />
+        <TextView
+          android:text="0"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#00ffff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#00ffff"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="敏捷度"
+            android:layout_height="match_parent"/>
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="20sp"
+            android:textColor="#00ffff"
+            android:layout_width="0dp"
+            android:text="0"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:text="主人购买装备"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="宝宝购买装备" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

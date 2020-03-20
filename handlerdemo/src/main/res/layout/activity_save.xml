@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/byebye"
+    tools:context=".SaveFileActivity">
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="写入文件"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <EditText
+        android:id="@+id/textwrite"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:hint="要写入的文件"
+        android:lines="3" />
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:text="读取文件" />
+
+    <EditText
+        android:id="@+id/textread"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:lines="3"
+        android:hint="要读取的文件" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/restart" />
+
+</LinearLayout>
