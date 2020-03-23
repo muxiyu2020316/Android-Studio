@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">下拉列表</string>
+    <string-array name="tels">
+        <item>Android开发之路</item>
+        <item>Android开发案例</item>
+        <item>Android进阶之路</item>
+        <item>Android高级手册</item>
+
+    </string-array>
+</resources>
