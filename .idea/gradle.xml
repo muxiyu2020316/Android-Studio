@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Apisql" />
+            <option value="$PROJECT_DIR$/ListViewEXE" />
+            <option value="$PROJECT_DIR$/ListViewImage" />
+            <option value="$PROJECT_DIR$/RecyclerView" />
+            <option value="$PROJECT_DIR$/SQLshiwu" />
+            <option value="$PROJECT_DIR$/SqlListView" />
+            <option value="$PROJECT_DIR$/UI designEXE" />
+            <option value="$PROJECT_DIR$/applist" />
+            <option value="$PROJECT_DIR$/handlerdemo" />
+            <option value="$PROJECT_DIR$/listviewcase" />
+            <option value="$PROJECT_DIR$/saveRecover" />
+            <option value="$PROJECT_DIR$/sqlite" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

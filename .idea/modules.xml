@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Apisql/Apisql.iml" filepath="$PROJECT_DIR$/Apisql/Apisql.iml" group="FirstAPPracation/Apisql" />
+      <module fileurl="file://$PROJECT_DIR$/FirstAPPracation.iml" filepath="$PROJECT_DIR$/FirstAPPracation.iml" group="FirstAPPracation" />
+      <module fileurl="file://$PROJECT_DIR$/equip/Lightning AVD-equip.iml" filepath="$PROJECT_DIR$/equip/Lightning AVD-equip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handlerdemo/Lightning AVD-handlerdemo.iml" filepath="$PROJECT_DIR$/handlerdemo/Lightning AVD-handlerdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewEXE/ListViewEXE.iml" filepath="$PROJECT_DIR$/ListViewEXE/ListViewEXE.iml" group="FirstAPPracation/ListViewEXE" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewImage/ListViewImage.iml" filepath="$PROJECT_DIR$/ListViewImage/ListViewImage.iml" group="FirstAPPracation/ListViewImage" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerView/RecyclerView.iml" filepath="$PROJECT_DIR$/RecyclerView/RecyclerView.iml" group="FirstAPPracation/RecyclerView" />
+      <module fileurl="file://$PROJECT_DIR$/SQLshiwu/SQLshiwu.iml" filepath="$PROJECT_DIR$/SQLshiwu/SQLshiwu.iml" group="FirstAPPracation/SQLshiwu" />
+      <module fileurl="file://$PROJECT_DIR$/SqlListView/SqlListView.iml" filepath="$PROJECT_DIR$/SqlListView/SqlListView.iml" group="FirstAPPracation/SqlListView" />
+      <module fileurl="file://$PROJECT_DIR$/UI designEXE/UI designEXE.iml" filepath="$PROJECT_DIR$/UI designEXE/UI designEXE.iml" group="FirstAPPracation/UI designEXE" />
+      <module fileurl="file://$PROJECT_DIR$/applist/applist.iml" filepath="$PROJECT_DIR$/applist/applist.iml" group="FirstAPPracation/applist" />
+      <module fileurl="file://$PROJECT_DIR$/equip/equip.iml" filepath="$PROJECT_DIR$/equip/equip.iml" group="FirstAPPracation/equip" />
+      <module fileurl="file://$PROJECT_DIR$/handlerdemo/handlerdemo.iml" filepath="$PROJECT_DIR$/handlerdemo/handlerdemo.iml" group="FirstAPPracation/handlerdemo" />
+      <module fileurl="file://$PROJECT_DIR$/listviewcase/listviewcase.iml" filepath="$PROJECT_DIR$/listviewcase/listviewcase.iml" group="FirstAPPracation/listviewcase" />
+      <module fileurl="file://$PROJECT_DIR$/saveRecover/saveRecover.iml" filepath="$PROJECT_DIR$/saveRecover/saveRecover.iml" group="FirstAPPracation/saveRecover" />
+      <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" group="FirstAPPracation/sqlite" />
+    </modules>
+  </component>
+</project>
