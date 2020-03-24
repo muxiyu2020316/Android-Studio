@@ -17,7 +17,7 @@ public class SimpleAdapter extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_simpleadapter);
-        LV = findViewById(R.id.lv);
+        LV = findViewById(R.id.lv2);
         //上下文。布局。数组
         List<Map<String, Object>> data = new ArrayList<Map<String, Object>>();
         Map<String, Object> map1 = new HashMap<String, Object>();

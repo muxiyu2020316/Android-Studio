@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.handlerdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android:permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+11-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:32:5-33:46
+11-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:32:22-81
+12    <!-- 往SDCard写入数据权限 -->
+13    <uses-permission android:name="android:permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:35:5-36:46
+13-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:35:22-78
+14
+15    <application
+15-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:6:5-31:19
+16        android:allowBackup="true"
+16-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/restart"
+19-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:8:9-41
+20        android:label="数据存储"
+20-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:9:9-29
+21        android:roundIcon="@drawable/fengxing"
+21-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:10:9-47
+22        android:supportsRtl="true"
+22-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:11:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:12:9-40
+25        <activity android:name="com.example.handlerdemo.SaveFileActivity" />
+25-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:13:9-63
+25-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:13:19-51
+26        <activity
+26-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:14:9-15:37
+27            android:name="com.example.handlerdemo.qqLoginActivity"
+27-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:14:19-50
+28            android:label="QQ2020" />
+28-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:15:13-35
+29        <activity
+29-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:16:9-23:20
+30            android:name="com.example.handlerdemo.MenuActivity"
+30-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:17:13-41
+31            android:label="主界面" >
+31-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:18:13-32
+32            <intent-filter>
+32-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:19:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:20:17-69
+33-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:20:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:21:17-77
+35-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:24:9-27:56
+39            android:name="com.example.handlerdemo.MainActivity"
+39-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:25:13-41
+40            android:label="Handler下载"
+40-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:26:13-38
+41            android:roundIcon="@drawable/souhumovie" />
+41-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:27:13-53
+42
+43        <!-- 在SDCard中创建与删除文件权限 -->
+44
+45    </application>
+46
+47</manifest>
