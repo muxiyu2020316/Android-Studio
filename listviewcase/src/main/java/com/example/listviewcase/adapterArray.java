@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class AdapterArray extends AppCompatActivity {
+public class adapterArray extends AppCompatActivity {
 
     private ListView LV;
     private String[] array = new String[]{"功能1", "功能2", "功能3", "功能4"};

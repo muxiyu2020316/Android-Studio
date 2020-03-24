@@ -2,6 +2,7 @@ package com.example.listviewcase;
 
 import android.os.Bundle;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,9 +11,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SimpleAdapter extends AppCompatActivity {
+public class simpleAdapter extends AppCompatActivity {
     private ListView LV;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,9 +36,8 @@ public class SimpleAdapter extends AppCompatActivity {
         data.add(map2);
         data.add(map3);
         data.add(map4);
-
-        LV.setAdapter(
-                new android.widget.SimpleAdapter(this, data, R.layout.myitem,
-                        new String[]{"icon", "name"}, new int[]{R.id.iv, R.id.tv}));
+        String[] content = new String[]{"icon", "name"};
+        int view[] = new int[]{R.id.iv, R.id.tv};
+        LV.setAdapter(new SimpleAdapter(this, data, R.layout.myitem, content, view));
     }
 }
