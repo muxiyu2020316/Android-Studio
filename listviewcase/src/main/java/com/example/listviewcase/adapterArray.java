@@ -39,7 +39,6 @@ public class adapterArray extends AppCompatActivity {
             this.layoutid = layoutid;
             this.array = array;
             inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-
         }
 
         //自定义arrayadapter的构造方法

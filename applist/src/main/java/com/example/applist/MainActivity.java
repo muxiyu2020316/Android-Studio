@@ -13,13 +13,11 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
     //1.准备数据源
-    String[] app_name =
-            {"jingdong", "QQ", "QQ斗地主", "wechat", "xinglangwebo"};
+    String[] app_name = {"jingdong", "QQ", "QQ斗地主", "wechat", "xinglangwebo"};
     //准备图片
     int[] app_icon = {R.drawable.add, R.drawable.bs,
             R.drawable.calendar3, R.drawable.mokeweb,
             R.drawable.aiqiy};
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
