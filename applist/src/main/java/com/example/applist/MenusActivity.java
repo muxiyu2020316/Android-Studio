@@ -23,4 +23,9 @@ public class MenusActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
+
+    public void Threed(View view) {
+        Intent intent = new Intent(this, marketActivity.class);
+        startActivity(intent);
+    }
 }

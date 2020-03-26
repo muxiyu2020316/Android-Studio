@@ -10,15 +10,15 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 public class SecondActivity extends AppCompatActivity {
-    String[] app_name = {"京东", "QQ", "QQ斗地主", "微信"};
-    int[] app_icon = {R.drawable.add, R.drawable.bs, R.drawable.calendar3, R.drawable.mokeweb,
-            R.drawable.aiqiy};
+    String[] app_name = {"京东", "QQ", "QQ斗地主", "微信", "花花影视", "百度云", "暑期书店", "风行影视", "钉钉"};
+    int[] app_icons = {R.drawable.add, R.drawable.bs, R.drawable.calendar3, R.drawable.mokeweb,
+            R.drawable.aiqiy, R.drawable.flower, R.drawable.baiduyun, R.drawable.book, R.drawable.fengxing, R.drawable.dingding};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ListView listView1 = findViewById(R.id.listview1);
+        setContentView(R.layout.activity_second);
+        ListView listView1 = findViewById(R.id.listview2);
         listView1.setAdapter(new MyAdapter());
     }
 
@@ -36,13 +36,13 @@ public class SecondActivity extends AppCompatActivity {
             return i;
         }
         @Override
-        public View getView(int i, View Content, ViewGroup viewGroup) {
+        public View getView(int i, View v, ViewGroup viewGroup) {
             View view = View.inflate(SecondActivity.this, R.layout.list_item, null);
             TextView name = view.findViewById(R.id.tv_name);
             ImageView img = view.findViewById(R.id.img_app);
             name.setText(app_name[i]);
-            img.setBackgroundResource(app_icon[i]);
-            return null;
+            img.setImageResource(app_icons[i]);
+            return view;
         }
     }
 }
