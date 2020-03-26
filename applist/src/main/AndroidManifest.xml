@@ -4,20 +4,26 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/bs"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".marketActivity"></activity>
-        <activity android:name=".MenusActivity">
+        <activity
+            android:name=".marketActivity"
+            android:label="小米应用市场"></activity>
+        <activity
+            android:name=".MenusActivity"
+            android:label="应用市场">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
+        <activity
+            android:name=".SecondActivity"
+            android:label="华为应用市场" />
         <activity android:name=".MainActivity"></activity>
     </application>
 

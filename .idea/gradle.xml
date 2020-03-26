@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActivityProDemo" />
             <option value="$PROJECT_DIR$/Apisql" />
             <option value="$PROJECT_DIR$/ListViewEXE" />
             <option value="$PROJECT_DIR$/ListViewImage" />

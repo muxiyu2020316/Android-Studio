@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActivityProDemo/ActivityProDemo.iml" filepath="$PROJECT_DIR$/ActivityProDemo/ActivityProDemo.iml" group="FirstAPPracation/ActivityProDemo" />
       <module fileurl="file://$PROJECT_DIR$/Apisql/Apisql.iml" filepath="$PROJECT_DIR$/Apisql/Apisql.iml" group="FirstAPPracation/Apisql" />
       <module fileurl="file://$PROJECT_DIR$/FirstAPPracation.iml" filepath="$PROJECT_DIR$/FirstAPPracation.iml" group="FirstAPPracation" />
       <module fileurl="file://$PROJECT_DIR$/equip/Lightning AVD-equip.iml" filepath="$PROJECT_DIR$/equip/Lightning AVD-equip.iml" />

@@ -11,14 +11,14 @@
 9-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:5:5-23:19
+11-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
 12-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.1.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:7:9-43
+15        android:icon="@drawable/bs"
+15-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:7:9-36
 16        android:label="@string/app_name"
 16-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
@@ -28,27 +28,38 @@
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
 20-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.applist.MenusActivity" >
-21-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:9-18:20
-21-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:19-48
-22            <intent-filter>
-22-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:17-69
-23-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:16:17-77
-25-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28        <activity android:name="com.example.applist.SecondActivity" />
-28-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:9-52
-28-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:19-49
-29        <activity android:name="com.example.applist.MainActivity" >
-29-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:20:9-22:20
-29-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:20:19-47
-30        </activity>
-31    </application>
-32
-33</manifest>
+21        <activity
+21-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:9-13:47
+22            android:name="com.example.applist.marketActivity"
+22-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:19-49
+23            android:label="小米应用市场" />
+23-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:13:13-35
+24        <activity
+24-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:9-21:20
+25            android:name="com.example.applist.MenusActivity"
+25-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:19-48
+26            android:label="应用市场" >
+26-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:15:13-33
+27            <intent-filter>
+27-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:16:13-20:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:17-69
+28-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:17-77
+30-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:9-23:37
+34            android:name="com.example.applist.SecondActivity"
+34-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:19-49
+35            android:label="华为应用市场" />
+35-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:23:13-35
+36        <activity android:name="com.example.applist.MainActivity" />
+36-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:9-59
+36-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:19-47
+37    </application>
+38
+39</manifest>

@@ -3,13 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:background="@drawable/byebye"
+    android:orientation="vertical"
     tools:context=".SecondActivity">
 
     <ListView
         android:id="@+id/listview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-
     </ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="dolo"
+        android:text="全部下载" />
 </LinearLayout>

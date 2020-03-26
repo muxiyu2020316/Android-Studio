@@ -1,35 +1,59 @@
 [
     {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_byebye.jpg.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\byebye.jpg"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_lili.jpg.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\lili.jpg"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\layout_item_market.xml.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\layout\\item_market.xml"
+    },
+    {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_yinghua.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\yinghua.png"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_fengxing.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\fengxing.png"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_jiuer.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\jiuer.png"
     },
     {
-        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\layout_activity_second.xml.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\layout\\activity_second.xml"
     },
     {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_lili.jpg.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\lili.jpg"
+    },
+    {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\layout_activity_menus.xml.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\layout\\activity_menus.xml"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_book.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\book.png"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
@@ -44,12 +68,24 @@
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_muxiyu.jpg.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\muxiyu.jpg"
+    },
+    {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_calendar3.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\calendar3.png"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_downlode.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\downlode.png"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_addmessage.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\addmessage.png"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -64,12 +100,28 @@
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_muxiyu.jpg.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\muxiyu.jpg"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\layout_activity_market.xml.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\layout\\activity_market.xml"
+    },
+    {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bs.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\bs.png"
     },
     {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_flower.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\flower.png"
+    },
+    {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_baiduyun.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\baiduyun.png"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_baiduyun.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\baiduyun.png"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_aiqiy.png.flat",
@@ -78,6 +130,10 @@
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_dingding.png.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\dingding.png"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_cattwo.png.flat",
@@ -98,6 +154,14 @@
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable-v24_tongli.jpg.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable-v24\\tongli.jpg"
+    },
+    {
+        "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\drawable_tongli.jpg.flat",
+        "source": "D:\\Lightning AVD\\applist\\src\\main\\res\\drawable\\tongli.jpg"
     },
     {
         "merged": "D:\\Lightning AVD\\applist\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

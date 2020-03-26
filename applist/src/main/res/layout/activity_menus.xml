@@ -4,22 +4,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/lili"
     tools:context=".MenusActivity">
 
     <ImageButton
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:onClick="Main"
         android:src="@drawable/add" />
 
     <ImageButton
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:onClick="Second"
         android:src="@drawable/aiqiy" />
 
     <ImageButton
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:onClick="Threed"
         android:src="@drawable/baiduyun" />

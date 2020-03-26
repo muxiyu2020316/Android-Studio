@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">下拉列表</string>
+    <string name="app_name">界面演示进阶</string>
     <string-array name="tels">
         <item>Android开发之路</item>
         <item>Android开发案例</item>

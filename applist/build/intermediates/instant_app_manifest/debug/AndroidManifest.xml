@@ -13,22 +13,28 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/bs"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.applist.MenusActivity" >
+        <activity
+            android:name="com.example.applist.marketActivity"
+            android:label="小米应用市场" />
+        <activity
+            android:name="com.example.applist.MenusActivity"
+            android:label="应用市场" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.applist.SecondActivity" />
-        <activity android:name="com.example.applist.MainActivity" >
-        </activity>
+        <activity
+            android:name="com.example.applist.SecondActivity"
+            android:label="华为应用市场" />
+        <activity android:name="com.example.applist.MainActivity" />
     </application>
 
 </manifest>

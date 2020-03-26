@@ -46,6 +46,10 @@ public class marketActivity extends AppCompatActivity {
 
     }
 
+    public void dos(View view) {
+
+    }
+
     //自定义数据适配器
     private class MyAdapter extends BaseAdapter {
         @Override
@@ -81,4 +85,5 @@ public class marketActivity extends AppCompatActivity {
             return view;
         }
     }
+
 }
