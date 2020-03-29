@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/equip/equip.iml" filepath="$PROJECT_DIR$/equip/equip.iml" group="FirstAPPracation/equip" />
       <module fileurl="file://$PROJECT_DIR$/handlerdemo/handlerdemo.iml" filepath="$PROJECT_DIR$/handlerdemo/handlerdemo.iml" group="FirstAPPracation/handlerdemo" />
       <module fileurl="file://$PROJECT_DIR$/listviewcase/listviewcase.iml" filepath="$PROJECT_DIR$/listviewcase/listviewcase.iml" group="FirstAPPracation/listviewcase" />
+      <module fileurl="file://$PROJECT_DIR$/menuactivity/menuactivity.iml" filepath="$PROJECT_DIR$/menuactivity/menuactivity.iml" group="FirstAPPracation/menuactivity" />
       <module fileurl="file://$PROJECT_DIR$/saveRecover/saveRecover.iml" filepath="$PROJECT_DIR$/saveRecover/saveRecover.iml" group="FirstAPPracation/saveRecover" />
       <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" group="FirstAPPracation/sqlite" />
     </modules>

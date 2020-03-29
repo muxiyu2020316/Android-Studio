@@ -761,6 +761,7 @@ id app_img
 id app_name
 id app_size
 id async
+id back
 id barrier
 id beginning
 id blocking
@@ -790,12 +791,16 @@ id expand_activities_button
 id expanded_menu
 id forever
 id gone
+id grid
 id group_divider
 id groups
 id home
 id homeAsUp
 id icon
 id icon_group
+id id_add
+id id_del
+id id_share
 id ifRoom
 id image
 id img_app
@@ -929,12 +934,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_grid
 layout activity_main
 layout activity_market
 layout activity_menus
 layout activity_second
 layout custom_dialog
 layout item_market
+layout list_grid
 layout list_item
 layout notification_action
 layout notification_action_tombstone
@@ -946,6 +953,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

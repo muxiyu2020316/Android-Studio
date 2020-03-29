@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\f7fa931c10060cb31b4ececcd856b65d\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\e27002105a9bdd38fe216ef919b747b9\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -25,25 +25,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\25908\.gradle\ca
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\54ec9a60a0f20829d9c5323f1ce0908c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\0571339fd4cb74441b19561f6766bb98\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\0f91f258f9d0abaa0e56c019df47bd85\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml
 		INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:5:5-43:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\75fe1a0d0ea641341446dfd6b8974e96\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] C:\Users\25908\.gradle\caches\transforms-2\files-2.1\1cd7eff88f5e86d0249af2958bf465f0\core-1.1.0\AndroidManifest.xml:24:5-89
@@ -64,38 +64,60 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\25
 		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.applist.marketActivity
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:9-13:47
+activity#com.example.applist.GridActivity
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:9-20:20
 	android:label
 		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:13:13-35
 	android:name
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:19-49
-activity#com.example.applist.MenusActivity
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:9-21:20
-	android:label
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:15:13-33
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:huawei.open+category:name:android.intent.category.DEFAULT
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:13-19:29
+action#huawei.open
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:17-54
 	android:name
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:19-48
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:16:13-20:29
-action#android.intent.action.MAIN
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:17-69
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:25-51
+category#android.intent.category.DEFAULT
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:18:17-75
 	android:name
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:17-77
-	android:name
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:27-74
-activity#com.example.applist.SecondActivity
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:9-23:37
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:18:27-73
+activity#com.example.applist.marketActivity
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:21:9-29:20
 	android:label
 		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:23:13-35
 	android:name
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:19-49
-activity#com.example.applist.MainActivity
-ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:9-59
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:13-43
+intent-filter#action:name:xiaomi.open+category:name:android.intent.category.DEFAULT
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:13-28:29
+action#xiaomi.open
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:26:13-50
 	android:name
-		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:19-47
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:26:21-47
+activity#com.example.applist.MenusActivity
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:30:9-37:20
+	android:label
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:32:13-33
+	android:name
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:31:13-42
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:33:13-36:29
+action#android.intent.action.MAIN
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:35:27-74
+activity#com.example.applist.SecondActivity
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:38:9-41:20
+	android:label
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:40:13-35
+	android:name
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:39:13-43
+activity#com.example.applist.MainActivity
+ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:42:9-50
+	android:name
+		ADDED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml:42:19-47
 uses-sdk
 INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Lightning AVD\applist\src\main\AndroidManifest.xml

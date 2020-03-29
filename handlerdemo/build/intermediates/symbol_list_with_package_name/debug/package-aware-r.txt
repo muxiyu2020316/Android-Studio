@@ -757,6 +757,7 @@ id beginning
 id blocking
 id bottom
 id button
+id button1
 id buttonPanel
 id center_vertical
 id chains
@@ -818,6 +819,7 @@ id parentPanel
 id pause
 id percent
 id progressBar
+id progressBar1
 id progress_circular
 id progress_horizontal
 id radio
@@ -868,6 +870,7 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView1
 id textread
 id textview
 id textwrite

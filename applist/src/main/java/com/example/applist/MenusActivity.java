@@ -28,4 +28,9 @@ public class MenusActivity extends AppCompatActivity {
         Intent intent = new Intent(this, marketActivity.class);
         startActivity(intent);
     }
+
+    public void Four(View view) {
+        Intent intent = new Intent(this, GridActivity.class);
+        startActivity(intent);
+    }
 }

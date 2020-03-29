@@ -33,46 +33,45 @@
 21-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:10:9-47
 22        android:supportsRtl="true"
 22-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:11:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:12:9-40
-25        <activity android:name="com.example.handlerdemo.SaveFileActivity" />
-25-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:13:9-63
-25-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:13:19-51
-26        <activity
-26-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:14:9-15:37
-27            android:name="com.example.handlerdemo.qqLoginActivity"
-27-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:14:19-50
-28            android:label="QQ2020" />
-28-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:15:13-35
-29        <activity
-29-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:16:9-23:20
-30            android:name="com.example.handlerdemo.MenuActivity"
-30-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:17:13-41
-31            android:label="主界面" >
-31-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:18:13-32
-32            <intent-filter>
-32-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:19:13-22:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:20:17-69
-33-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:20:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:21:17-77
-35-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:21:27-74
-36            </intent-filter>
-37        </activity>
-38        <activity
-38-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:24:9-27:56
-39            android:name="com.example.handlerdemo.MainActivity"
-39-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:25:13-41
-40            android:label="Handler下载"
-40-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:26:13-38
-41            android:roundIcon="@drawable/souhumovie" />
-41-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:27:13-53
-42
-43        <!-- 在SDCard中创建与删除文件权限 -->
-44
-45    </application>
-46
-47</manifest>
+23        android:theme="@style/AppTheme" >
+23-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:12:9-40
+24        <activity android:name="com.example.handlerdemo.SaveFileActivity" />
+24-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:13:9-63
+24-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:13:19-51
+25        <activity
+25-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:14:9-15:37
+26            android:name="com.example.handlerdemo.qqLoginActivity"
+26-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:14:19-50
+27            android:label="QQ2020" />
+27-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:15:13-35
+28        <activity
+28-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:16:9-23:20
+29            android:name="com.example.handlerdemo.MenuActivity"
+29-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:17:13-41
+30            android:label="主界面" >
+30-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:18:13-32
+31            <intent-filter>
+31-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:19:13-22:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:20:17-69
+32-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:21:17-77
+34-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:21:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:24:9-27:56
+38            android:name="com.example.handlerdemo.MainActivity"
+38-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:25:13-41
+39            android:label="Handler下载"
+39-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:26:13-38
+40            android:roundIcon="@drawable/souhumovie" />
+40-->D:\Lightning AVD\handlerdemo\src\main\AndroidManifest.xml:27:13-53
+41
+42        <!-- 在SDCard中创建与删除文件权限 -->
+43
+44    </application>
+45
+46</manifest>

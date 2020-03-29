@@ -11,7 +11,7 @@
 9-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:5:5-25:19
+11-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
 12-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,37 +29,70 @@
 20        android:theme="@style/AppTheme" >
 20-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:11:9-40
 21        <activity
-21-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:9-13:47
-22            android:name="com.example.applist.marketActivity"
-22-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:19-49
-23            android:label="小米应用市场" />
+21-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:9-20:20
+22            android:name="com.example.applist.GridActivity"
+22-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:12:19-47
+23            android:label="华为应用市场" >
 23-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:13:13-35
-24        <activity
-24-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:9-21:20
-25            android:name="com.example.applist.MenusActivity"
-25-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:19-48
-26            android:label="应用市场" >
-26-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:15:13-33
-27            <intent-filter>
-27-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:16:13-20:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:17-69
-28-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:17-77
-30-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:19:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity
-33-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:9-23:37
-34            android:name="com.example.applist.SecondActivity"
-34-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:19-49
-35            android:label="华为应用市场" />
-35-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:23:13-35
-36        <activity android:name="com.example.applist.MainActivity" />
-36-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:9-59
-36-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:19-47
-37    </application>
-38
-39</manifest>
+24            <intent-filter>
+24-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:14:13-19:29
+25
+26                <!-- 自定义名称 -->
+27                <action android:name="huawei.open" />
+27-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:17-54
+27-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:17:25-51
+28
+29                <category android:name="android.intent.category.DEFAULT" />
+29-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:18:17-75
+29-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:18:27-73
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:21:9-29:20
+33            android:name="com.example.applist.marketActivity"
+33-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:22:13-43
+34            android:label="小米应用市场" >
+34-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:23:13-35
+35            <intent-filter>
+35-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:24:13-28:29
+36
+37                <!-- 自定义名称 -->
+38                <action android:name="xiaomi.open" />
+38-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:26:13-50
+38-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:26:21-47
+39
+40                <category android:name="android.intent.category.DEFAULT" />
+40-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:18:17-75
+40-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:18:27-73
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:30:9-37:20
+44            android:name="com.example.applist.MenusActivity"
+44-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:31:13-42
+45            android:label="应用市场" >
+45-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:32:13-33
+46            <intent-filter>
+46-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:33:13-36:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:34:17-69
+47-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:34:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:35:17-77
+49-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:35:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:38:9-41:20
+53            android:name="com.example.applist.SecondActivity"
+53-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:39:13-43
+54            android:label="苹果应用市场" >
+54-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:40:13-35
+55        </activity>
+56        <activity android:name="com.example.applist.MainActivity" />
+56-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:42:9-50
+56-->D:\Lightning AVD\applist\src\main\AndroidManifest.xml:42:19-47
+57    </application>
+58
+59</manifest>

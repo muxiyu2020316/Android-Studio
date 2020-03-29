@@ -10,21 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".GridActivity"
+            android:label="华为应用市场">
+            <intent-filter>
+
+                <!--                自定义名称-->
+                <action android:name="huawei.open" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".marketActivity"
-            android:label="小米应用市场"></activity>
+            android:label="小米应用市场">
+            <intent-filter>
+                <!--                自定义名称-->
+                <action android:name="xiaomi.open" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".MenusActivity"
             android:label="应用市场">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".SecondActivity"
-            android:label="华为应用市场" />
-        <activity android:name=".MainActivity"></activity>
+            android:label="苹果应用市场"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

@@ -27,4 +27,11 @@
         android:layout_height="wrap_content"
         android:onClick="Threed"
         android:src="@drawable/baiduyun" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="Four"
+        android:src="@drawable/flower" />
 </LinearLayout>
