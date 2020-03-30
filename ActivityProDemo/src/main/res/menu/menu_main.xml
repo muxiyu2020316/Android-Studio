@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="菜单"
+        app:showAsAction="always">
+        <menu app:showAsAction="ifRoom">
+            <item
+                android:id="@+id/id_add"
+                android:title="添加" />
+            <item
+                android:id="@+id/id_del"
+                android:title="删除" />
+
+            <item
+                android:id="@+id/share"
+                android:title="分享">
+                <menu app:showAsAction="ifRoom">
+                    android:id="@+id/id_share">
+                    <item
+                        android:id="@+id/id_huawei"
+                        android:title="华为应用市场" />
+                    <item
+                        android:id="@+id/id_xiaomi"
+                        android:title="小米应用市场" />
+                </menu>
+            </item>
+
+            <item
+                android:id="@+id/back"
+                android:title="退出" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/icon"
+        android:icon="@drawable/flower"
+        android:title="add"
+        app:showAsAction="always" />
+</menu>

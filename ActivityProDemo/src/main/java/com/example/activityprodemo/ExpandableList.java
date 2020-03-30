@@ -30,7 +30,7 @@ public class ExpandableList extends AppCompatActivity {
     //定义每一项的图标
     int[][] imgIds = new int[][]{
             {R.drawable.email, R.drawable.lightdown, R.drawable.excal},
-            {R.drawable.weibo, R.drawable.bs},
+            {R.drawable.weibo, R.drawable.bookhome},
             {R.drawable.big, R.drawable.bookhome, R.drawable.clock, R.drawable.link},
             {R.drawable.maidanglao, R.drawable.tianyi}, {R.drawable.uc, R.drawable.qqbrower, R.drawable.xunlei, R.drawable.si}, {
             R.drawable.tv, R.drawable.tvhome, R.drawable.mi}};
